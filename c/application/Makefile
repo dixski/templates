@@ -23,7 +23,7 @@ SRCS = $(wildcard *.c)
 OBJS = $(SRCS:.c=.o)
 
 # define the executable file 
-MAIN = app
+MAIN = sample.app
 
 .PHONY: depend clean
 
